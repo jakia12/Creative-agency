@@ -1,0 +1,19 @@
+.about-banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ab-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.697), rgba(0, 0, 0, 0.673)),url('../images/sl3.jpg');
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.banner-content{
+   text-align: center;
+   
+}

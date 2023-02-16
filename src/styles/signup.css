@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.sign-banner {
+    position: relative;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-banner-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.697), rgba(0, 0, 0, 0.697)), url('../images/sign-header.jpg');
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.sign-breadcrumb {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sign-breadcrumb li {
+
+    padding: 5px;
+
+
+}
+
+.sign-breadcrumb li .br-item {
+    color: #fff;
+    font-family: Nunito;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 1.5s linear
+}
+
+.sign-breadcrumb li .br-item:hover,
+.sign-breadcrumb li .br-item:focus,
+.sign-breadcrumb li .br-item:active {
+    color: blue
+}
+
+.add-slash:after {
+    content: '/';
+    display: inline-block;
+    padding-left: 6px;
+
+
+}
+
+/*=============================
+==========sighn up area========
+==============================*/
+.sign-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/sign-bg.jpg');
+    background-repeat: no-repeat;
+
+}
+
+.sign-form {
+    width: 580px;
+    margin: 0 auto;
+}
+
+.sub-btn-area {
+    text-align: center;
+}
+
+.sub-btn {
+    padding: 8px 25px;
+    background: #1abc9c;
+    color: #fff;
+    border: none;
+    transition: all 1.5s ease;
+}
+
+.sub-btn:hover {
+    background-color: #1abc9ce5;
+}
+
+.add-link {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.helper-text {
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.add-link a {
+
+    font-size: 16px;
+    color: #191919;
+    margin-left: 6px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    font-family: Nunito;
+}

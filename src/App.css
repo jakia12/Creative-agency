@@ -1,0 +1,19 @@
+body,html{
+    margin:0
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:oxygen,sans-serif;
+}
+
+p{
+    font-family:Nunito,sans-serif
+}
+
+/**************
+theme color: #1abc9c
+
+hover color:#1abc9cf6
+
+
+*********/
